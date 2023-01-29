@@ -1,888 +1,511 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Valentin Lako / Online CV</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-      <meta name="description" content="Valentin Lako Online CV" />
-      <meta name="keywords" content="valentin lako, cv, valentin lako developer, valentin lako Front-End developer" />
-      <meta name="author" content="lmtheme" />
-      <link rel="shortcut icon" href="v.png">
-      <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-      <link rel="stylesheet" href="css/normalize.css" type="text/css">
-      <link rel="stylesheet" href="css/animate.css" type="text/css">
-      <link rel="stylesheet" href="css/transition-animations.css" type="text/css">
-      <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-      <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-      <link rel="stylesheet" href="css/main.css" type="text/css">
-      <script src="js/jquery-2.1.3.min.js"></script>
-      <script src="js/modernizr.custom.js"></script>
-      <script src='https://www.google.com/recaptcha/api.js'></script>
-   </head>
-   <style>
-      .v-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      }
-      .service-info h4 {
-      max-width: 170px;
-      margin: 0 auto;       
-      }
-      .v-grid-2 {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      align-items: center;
-      }
-      .v-grid-2 img {
-      max-width: 120px;
-      }
-   </style>
-   <body class="material-template">
-      <!-- Loading animation -->
-      <div class="preloader">
-         <div class="preloader-animation">
-            <div class="preloader-spinner">
-            </div>
-         </div>
-      </div>
-      <!-- /Loading animation -->
-      <div id="page" class="page">
-         <!-- Header -->
-         <header id="site_header" class="header mobile-menu-hide">
-            <div class="header-content">
-               <div class="site-title-block mobile-hidden">
-                  <div class="site-title">Valentin <span>Lako</span></div>
-               </div>
-               <!-- Navigation -->
-               <div class="site-nav">
-                  <!-- Main menu -->
-                  <ul id="nav" class="site-main-menu">
-                     <li>
-                        <a class="pt-trigger" href="#home" data-animation="62">Home</a><!-- href value = data-id without # of .pt-page. -->
-                     </li>
-                     <li>
-                        <a class="pt-trigger" href="#services" data-animation="62">Services</a>
-                     </li>
-                     <li>
-                        <a class="pt-trigger" href="#portfolio" data-animation="62">Portfolio</a>
-                     </li>
-                     <li>
-                        <a class="pt-trigger" href="#contact" data-animation="62">Contact</a>
-                     </li>
-                  </ul>
-                  <!-- /Main menu -->
-               </div>
-               <!-- Navigation -->
-            </div>
-         </header>
-         <!-- /Header -->
-         <!-- Mobile Header -->
-         <div class="mobile-header mobile-visible">
-            <div class="mobile-logo-container">
-               <div class="mobile-site-title">Valentin Lako</div>
-            </div>
-            <a class="menu-toggle mobile-visible">
-            <i class="fa fa-bars"></i>
-            </a>
-         </div>
-         <!-- /Mobile Header -->
-         <!-- Main Content -->
-         <div id="main" class="site-main">
-            <!-- Page changer wrapper -->
-            <div class="pt-wrapper">
-               <!-- Subpages -->
-               <div class="subpages">
-                  <!-- Home Subpage -->
-                  <section class="pt-page" data-id="home">
-                     <div class="section-inner start-page-content">
-                        <div class="page-header">
-                           <div class="row">
-                              <div class="col-sm-4 col-md-4 col-lg-4">
-                                 <div class="photo">
-                                    <img src="images/profile.jpg" alt="">
-                                 </div>
-                              </div>
-                              <div class="col-sm-8 col-md-8 col-lg-8">
-                                 <div class="title-block">
-                                    <h1>Valentin Lako</h1>
-                                    <div class="owl-carousel text-rotation">
-                                       <div class="item">
-                                          <div class="sp-subtitle">Senior Shopify Developer</div>
-                                       </div>
-                                       <div class="item">
-                                          <div class="sp-subtitle">Senior Shopify Front-End Developer</div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="social-links">
-                                    <a href="https://facebook.com/valentin.lako"><i class="fa fa-facebook"></i></a>
-                                    <a href="https://instagram.com/valentin.lako"><i class="fa fa-instagram"></i></a>
-                                    <a href="https://github.com/valentinlako"><i class="fa fa-github"></i></a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="page-content">
-                           <div class="row">
-                              <div class="col-sm-6 col-md-6 col-lg-6">
-                                 <div class="about-me">
-                                    <div class="block-title">
-                                       <h3>About <span>Me</span></h3>
-                                    </div>
-                                    <p>Hello! I'm Valentin Lako - a Self-Learned Senior Front-End Developer Specialized in Shopify, eCommerce and Dropshipping. Basically, if it's Shopify, I can do it.</br></br>I am...</br>
-                                       <strong>Ambitious and Hard-Worker</strong> - I am specialized in creating online destinations precisely tailored to each customer's needs. I am a pro in translating vague design goals into actionable, technical details.</br></br>
-                                       <strong>Talented and Comfortable</strong> - I have experience in completing projects ranging from simple storefronts to enterprise-class, web-based interfaces.</br></br>
-                                       <strong>Logical and Results-Driven</strong> - I am dedicated in building and optimizing user-focused websites for customers with various business objectives. I am <strong>judicious and creative</strong> when crafting effective websites to propel competitive advantage and revenue growth.</br></br>
-                                       <strong>Technically Proficient</strong> and <strong>Analytical Problem Solver</strong> with calm and focused demeanor.
-                                    </p>
-                                 </div>
-                                 <!-- <div class="download-resume">
-                                    <a href="" class="btn btn-secondary">Download Resume</a>
-                                    </div> -->
-                              </div>
-                              <div class="col-sm-6 col-md-6 col-lg-6">
-                                 <ul class="info-list">
-                                    <li><span class="title">Residence</span><span class="value">Romania</span></li>
-                                    <li><span class="title">Address</span><span class="value">Reghin, Mures</span></li>
-                                    <li><span class="title">E-mail</span><span class="value"><a href="mailto:valentin.lako@yahoo.com">valentin.lako@yahoo.com</a></span></li>
-                                    <li><span class="title">Phone</span><span class="value">+40 741 185 661</span></li>
-                                    <li><span class="title">Current Job</span><span class="value available">Front-End Developer @<a href="https://empowered-ecommerce.com">Empowered Ecommerce</a></span></li>
-                                    <li><span class="title">Availability</span><span class="value available">Available 20-40h/week</span></li>
-                                    <li><span class="title">Check my <a href="https://www.upwork.com/freelancers/~01520e351ff0df767b">UpWork Profile Here</a>.</span><span class="value available"></span></li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </section>
-                  <!-- End of Home Subpage -->
-                  <!-- Resume Subpage -->
-                  <section class="pt-page" data-id="resume">
-                     <div class="section-inner custom-page-content">
-                        <div class="page-header color-1">
-                           <h2>Resume</h2>
-                        </div>
-                        <div class="page-content">
-                           <div class="row">
-                              <div class="col-sm-6 col-md-6 col-lg-6">
-                                 <div class="block">
-                                    <div class="block-title">
-                                       <h3>Experience</h3>
-                                    </div>
-                                    <div class="timeline">
-                                       <!-- Experience 1 -->
-                                       <div class="timeline-item">
-                                          <h4 class="item-title">Frontend-developer</h4>
-                                          <span class="item-period">Dec 2012 - Current</span>
-                                          <span class="item-small">Web Agency</span>
-                                          <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                                       </div>
-                                       <!-- / Experience 1 -->
-                                       <!-- Experience 2 -->
-                                       <div class="timeline-item">
-                                          <h4 class="item-title">Web Designer</h4>
-                                          <span class="item-period">Dec 2011 - Nov 2012</span>
-                                          <span class="item-small">Apple Inc.</span>
-                                          <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                                       </div>
-                                       <!-- / Experience 2 -->
-                                       <!-- Experience 3 -->
-                                       <div class="timeline-item">
-                                          <h4 class="item-title">Graphic Designer</h4>
-                                          <span class="item-period">Jan 2010 - Dec 2011</span>
-                                          <span class="item-small">Apple Inc.</span>
-                                          <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                                       </div>
-                                       <!-- / Experience 3 -->
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="row">
-                              <div class="col-sm-6 col-md-6 col-lg-6">
-                                 <div class="block">
-                                    <div class="block-title">
-                                       <h3>Design <span>Skills</span></h3>
-                                    </div>
-                                    <div class="skills-info">
-                                       <h4>Web Design</h4>
-                                       <div class="skill-container">
-                                          <div class="skill-percentage skill-1"></div>
-                                       </div>
-                                       <h4>Graphic Design</h4>
-                                       <div class="skill-container">
-                                          <div class="skill-percentage skill-2"></div>
-                                       </div>
-                                       <h4>Print Design</h4>
-                                       <div class="skill-container">
-                                          <div class="skill-percentage skill-3"></div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-sm-6 col-md-6 col-lg-6">
-                                 <div class="block">
-                                    <div class="block-title">
-                                       <h3>Coding <span>Skills</span></h3>
-                                    </div>
-                                    <div class="skills-info">
-                                       <h4>HTML5</h4>
-                                       <div class="skill-container">
-                                          <div class="skill-percentage skill-4"></div>
-                                       </div>
-                                       <h4>CSS3/LESS/SASS</h4>
-                                       <div class="skill-container">
-                                          <div class="skill-percentage skill-5"></div>
-                                       </div>
-                                       <h4>jQuery</h4>
-                                       <div class="skill-container">
-                                          <div class="skill-percentage skill-6"></div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- Download Resume Button -->
-                           <div class="row">
-                              <div class="col-sm-12 col-md-12 col-lg-12">
-                                 <div class="block">
-                                    <div class="center download-resume">
-                                       <a href="#" class="btn btn-secondary">Download Resume</a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- End of Download Resume Button -->
-                        </div>
-                     </div>
-                  </section>
-                  <!-- End of Resume Subpage -->
-                  <!-- Services Subpage -->
-                  <section class="pt-page" data-id="services">
-                     <div class="section-inner custom-page-content">
-                        <div class="page-header color-1">
-                           <h2>Services</h2>
-                        </div>
-                        <div class="page-content">
-                           <!-- My Services -->
-                           <div class="row">
-                              <div class="">
-                                 <div class="block-title">
-                                    <h3>My <span>Services</span></h3>
-                                    <p>I'm in the field of Shopify Development since 2017. I've worked with so many people and everybody loved what I made. I can assure you that you'll be more than pleased with the results. Basically, if it's Shopify, I can do it.</p>
-                                 </div>
-                              </div>
-                              <div class="v-grid">
-                                 <div class="v-grid-i">
-                                    <div class="service-block">
-                                       <div class="service-info">
-                                          <!--<i class="service-icon fa fa-shopping-cart"></i>-->
-                                          <div class="service-image">
-                                             <img src="images/service/shopify.png" alt="Responsive Design" class="mCS_img_loaded">
-                                          </div>
-                                          <h4>Shopify Theme Customizations</h4>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="v-grid-i">
-                                    <div class="service-block">
-                                       <div class="service-info">
-                                          <!--<i class="service-icon fa fa-shopping-cart"></i>-->
-                                          <div class="service-image">
-                                             <img src="images/service/web_design_icon.png" alt="Responsive Design" class="mCS_img_loaded">
-                                          </div>
-                                          <h4>Shopify Custom Sections</h4>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="v-grid-i">
-                                    <div class="service-block">
-                                       <div class="service-info">
-                                          <div class="service-image">
-                                             <img src="images/service/creativity_icon.png" alt="Creativity" class="mCS_img_loaded">
-                                          </div>
-                                          <h4>Custom Scripts or Custom Internal Apps</h4>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="v-grid-i">
-                                    <div class="service-block">
-                                       <div class="service-info">
-                                          <div class="service-image">
-                                             <img src="images/service/page_speed.png" alt="Creativity" class="mCS_img_loaded">
-                                          </div>
-                                          <h4>Page Speed Optimization</h4>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- End of My Services -->
-                        </div>
-                     </div>
-                  </section>
-                  <!-- End of Services Subpage -->
-                  <!-- Portfolio Subpage -->
-                  <section class="pt-page" data-id="portfolio">
-                     <div class="section-inner custom-page-content">
-                        <div class="page-header color-1">
-                           <h2>Portfolio</h2>
-                        </div>
-                        <div class="page-content">
-                           <!-- Portfolio Content -->
-                           <div class="portfolio-content">
-                              <!-- Portfolio Grid -->
-                              <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
-                                 <!-- Portfolio Item 1 -->
-                                 <figure class="item">
-                                    <a class="" href="https://ruffandpurrpets.com/" target="_blank">
-                                       <img src="images/portfolio/1.png" alt="">
-                                       <div>
-                                          <h5 class="name">Ruff and Purr Pets</h5>
-                                          <h5 class="name">Full Store Revamp</h5>
-                                          <i class="fa fa-video-camera"></i>
-                                       </div>
-                                    </a>
-                                 </figure>
-                                 <!-- /Portfolio Item 1 -->
-                                 <!-- Portfolio Item 2 -->   
-                                 <figure class="item">
-                                    <a class="" href="https://historicmail.com/" target="_blank">
-                                       <img src="images/portfolio/2.png" alt="">
-                                       <div>
-                                          <h5 class="name">Historic Mail</h5>
-                                          <h5 class="name">Custom Scripts for Subscription Feature</h5>
-                                          <i class="fa fa-video-camera"></i>
-                                       </div>
-                                    </a>
-                                 </figure>
-                                 <!-- /Portfolio Item 2 -->
-                                 <!-- Portfolio Item 3 -->
-                                 <figure class="item">
-                                    <a class="" href="https://customroyalportraits.com/" target="_blank">
-                                       <img src="images/portfolio/3.png" alt="">
-                                       <div>
-                                          <h5 class="name">Custom Royal Portraits</h5>
-                                          <h5 class="name">Full Store Revamp</h5>
-                                          <i class="fa fa-video-camera"></i>
-                                       </div>
-                                    </a>
-                                 </figure>
-                                 <!-- /Portfolio Item 3 -->
-                                 <!-- Portfolio Item 4 -->
-                                 <figure class="item">
-                                    <a class="" href="https://moviepalette.com/" target="_blank">
-                                       <img src="images/portfolio/4.png" alt="">
-                                       <div>
-                                          <h5 class="name">Movie Palette</h5>
-                                          <h5 class="name">Custom Sections, Collection Page Scripts, Other Custom Scripts</h5>
-                                          <i class="fa fa-video-camera"></i>
-                                       </div>
-                                    </a>
-                                 </figure>
-                                 <!-- /Portfolio Item 4 -->
-                                 <!-- Portfolio Item 5 -->                        
-                                 <figure class="item">
-                                    <a class="" href="https://missjacobslittlelearners.com/" target="_blank">
-                                       <img src="images/portfolio/5.png" alt="">
-                                       <div>
-                                          <h5 class="name">Miss Jacobs Little Learners</h5>
-                                          <h5 class="name">Custom Scripts, Custom Sections, Store Revamp with a Designer</h5>
-                                          <i class="fa fa-video-camera"></i>
-                                       </div>
-                                    </a>
-                                 </figure>
-                                 <!-- /Portfolio Item 5 -->
-                                 <!-- Portfolio Item 6 -->                        
-                                 <figure class="item">
-                                    <a class="" href="https://citizensprout.com/" target="_blank">
-                                       <img src="images/portfolio/6.png" alt="">
-                                       <div>
-                                          <h5 class="name">Citizen Sprout</h5>
-                                          <h5 class="name">Custom Sections, Store Revamp with a Designer, Custom Internal App</h5>
-                                          <i class="fa fa-video-camera"></i>
-                                       </div>
-                                    </a>
-                                 </figure>
-                                 <!-- /Portfolio Item 6 -->
-                                 <!-- Portfolio Item 7 -->                        
-                                 <figure class="item">
-                                    <a class="" href="https://customviralrugs.com/" target="_blank">
-                                       <img src="images/portfolio/7.png" alt="">
-                                       <div>
-                                          <h5 class="name">Custom Viral Rugs</h5>
-                                          <h5 class="name">Full Store Setup</h5>
-                                          <i class="fa fa-video-camera"></i>
-                                       </div>
-                                    </a>
-                                 </figure>
-                                 <!-- /Portfolio Item 7 -->
-                                 <!-- Portfolio Item 8 -->                        
-                                 <figure class="item">
-                                    <a class="" href="https://hattonpress.com/" target="_blank">
-                                       <img src="images/portfolio/8.png" alt="">
-                                       <div>
-                                          <h5 class="name">Hatton Press</h5>
-                                          <h5 class="name">Bulk Product Creation, Custom Scripts</h5>
-                                          <i class="fa fa-video-camera"></i>
-                                       </div>
-                                    </a>
-                                 </figure>
-                                 <!-- /Portfolio Item 8 -->
-                                 <!-- Portfolio Item 9 -->                        
-                                 <figure class="item">
-                                    <a class="" href="https://lizzyandgrace.com/" target="_blank">
-                                       <img src="images/portfolio/9.png" alt="">
-                                       <div>
-                                          <h5 class="name">Lizzy & Grace</h5>
-                                          <h5 class="name">Custom Script (NavBar)</h5>
-                                          <i class="fa fa-video-camera"></i>
-                                       </div>
-                                    </a>
-                                 </figure>
-                                 <!-- /Portfolio Item 9 -->
-                              </div>
-                              <!-- /Portfolio Grid -->
-                           </div>
-                           <!-- Clients -->
-                           <div class="row">
-                              <div class="col-sm-12 col-md-12">
-                                 <div class="block-title">
-                                    <h3>Clients</h3>
-                                 </div>
-                                 <div class="v-grid-2">
-                                    <div class="col-sm-4 col-md-2 subpage-block">
-                                       <div class="client-block">
-                                          <a href="https://ruffandpurrpets.com/" target="_blank"><img src="images/clients/client_1.png" alt="image" class="mCS_img_loaded"></a>
-                                       </div>
-                                    </div>
-                                    <div class="col-sm-4 col-md-2 subpage-block">
-                                       <div class="client-block">
-                                          <a href="https://historicmail.com/" target="_blank"><img src="images/clients/client_2.png" alt="image" class="mCS_img_loaded"></a>
-                                       </div>
-                                    </div>
-                                    <div class="col-sm-4 col-md-2 subpage-block">
-                                       <div class="client-block">
-                                          <a href="https://customroyalportraits.com/" target="_blank"><img src="images/clients/client_3.png" alt="image" class="mCS_img_loaded"></a>
-                                       </div>
-                                    </div>
-                                    <div class="col-sm-4 col-md-2 subpage-block">
-                                       <div class="client-block">
-                                          <a href="https://moviepalette.com/" target="_blank"><img src="images/clients/client_4.png" alt="image" class="mCS_img_loaded"></a>
-                                       </div>
-                                    </div>
-                                    <div class="col-sm-4 col-md-2 subpage-block">
-                                       <div class="client-block">
-                                          <a href="https://missjacobslittlelearners.com/" target="_blank"><img src="images/clients/client_5.png" alt="image" class="mCS_img_loaded"></a>
-                                       </div>
-                                    </div>
-                                    <div class="col-sm-4 col-md-2 subpage-block">
-                                       <div class="client-block">
-                                          <a href="https://citizensprout.com/" target="_blank"><img src="images/clients/client_6.png" alt="image" class="mCS_img_loaded"></a>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- End of Clients -->
-                           <!-- Testimonials -->
-                           <div class="row">
-                              <div class="col-sm-12 col-md-12">
-                                 <div class="block-title">
-                                    <h3>Testimonials</h3>
-                                 </div>
-                                 <div class="testimonials owl-carousel block">
-                                    <!-- Testimonial 1 -->
-                                    <div class="testimonial-item">
-                                       <!-- Testimonial Author -->
-                                       <div class="testimonial-credits">
-                                          <!-- Picture -->
-                                          <div class="testimonial-picture">
-                                             <img src="images/testimonials/testimonial_photo_1.jpg" alt="">
-                                          </div>
-                                          <!-- /Picture -->
-                                          <!-- Testimonial author information -->
-                                          <div class="testimonial-author-info">
-                                             <p class="testimonial-author">Lucy Shishiansky</p>
-                                             <p class="testimonial-firm">RuffnPurr</p>
-                                          </div>
-                                       </div>
-                                       <!-- /Testimonial author information -->
-                                       <!-- Testimonial Content -->
-                                       <div class="testimonial-content">
-                                          <div class="testimonial-text">
-                                             <p>"We have so enjoyed working with Valentine! He is incredible! Not only is he an amazing and talented programmer but he is incredibly responsive and so easy to work with. We had originally hired him to migrate our Shopify template to a new 2.0 template and add some content. We ended up doing a whole entire site overhaul as we found Val is absolutely knowledgeable with both Shopify as well as back end programming. He made our site come to life more than I think we had intended and we are still working with him to implement changes as they come along. We cannot recommend Val enough! He is more than a rising talent, he is a true expert and an exceptionally great person to work with!"</p>
-                                          </div>
-                                       </div>
-                                       <!-- /Testimonial Content -->                
-                                    </div>
-                                    <!-- End of Testimonial 1 -->
-                                    <!-- Testimonial 2 -->
-                                    <div class="testimonial-item">
-                                       <!-- Testimonial Author -->
-                                       <div class="testimonial-credits">
-                                          <!-- Picture -->
-                                          <div class="testimonial-picture">
-                                             <img src="images/testimonials/testimonial_photo_2.jpg" alt="">
-                                          </div>
-                                          <!-- /Picture -->
-                                          <!-- Testimonial author information -->
-                                          <div class="testimonial-author-info">
-                                             <p class="testimonial-author">Katerina Yip</p>
-                                             <p class="testimonial-firm">HistoricMail</p>
-                                          </div>
-                                       </div>
-                                       <!-- /Testimonial author information -->
-                                       <!-- Testimonial Content -->
-                                       <div class="testimonial-content">
-                                          <div class="testimonial-text">
-                                             <p>"Valentin is exceptional to work with! Completely goes above and beyond."</p>
-                                          </div>
-                                       </div>
-                                       <!-- /Testimonial Content -->                
-                                    </div>
-                                    <!-- End of Testimonial 2 -->
-                                    <!-- Testimonial 3 -->
-                                    <div class="testimonial-item">
-                                       <!-- Testimonial Author -->
-                                       <div class="testimonial-credits">
-                                          <!-- Picture -->
-                                          <div class="testimonial-picture">
-                                             <img src="images/testimonials/testimonial_photo_3.jpg" alt="">
-                                          </div>
-                                          <!-- /Picture -->
-                                          <!-- Testimonial author information -->
-                                          <div class="testimonial-author-info">
-                                             <p class="testimonial-author">Nicolas N</p>
-                                          </div>
-                                       </div>
-                                       <!-- /Testimonial author information -->
-                                       <!-- Testimonial Content -->
-                                       <div class="testimonial-content">
-                                          <div class="testimonial-text">
-                                             <p>"Great experience working with Valentin, from the beginning its like he could see my vision and the end result was fantastic! Very highly recommended!"</p>
-                                          </div>
-                                       </div>
-                                       <!-- /Testimonial Content -->                
-                                    </div>
-                                    <!-- End of Testimonial 3 -->
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- End of Tesimonials -->
-                           <!-- /Portfolio Content -->
-                        </div>
-                     </div>
-                  </section>
-                  <!-- /Portfolio Subpage -->
-                  <!-- Blog Subpage -->
-                  <section class="pt-page" data-id="blog">
-                     <div class="section-inner custom-page-content">
-                        <div class="page-header color-1">
-                           <h2>Blog</h2>
-                        </div>
-                        <div class="page-content">
-                           <!-- Blog Posts Grid -->
-                           <div class="blog-masonry two-columns">
-                              <!-- Blog Post 1 -->
-                              <div class="item">
-                                 <div class="blog-card">
-                                    <div class="media-block">
-                                       <a href="blog-post-1.html">
-                                          <img class="post-image img-responsive" src="images/blog/blog_post_1.jpg" alt="blog-post-1" />
-                                          <div class="mask"></div>
-                                          <div class="post-date">
-                                             <span class="day">6</span><span class="month">Dec</span><!--<span class="year">2016</span>-->
-                                          </div>
-                                       </a>
-                                    </div>
-                                    <div class="post-info">
-                                       <ul class="category">
-                                          <li><a href="#">Travel</a></li>
-                                       </ul>
-                                       <a href="blog-post-1.html">
-                                          <h4 class="blog-item-title">Bootstrap is the Most Popular Framework</h4>
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- End of Blog Post 1 -->
-                              <!-- Blog Post 2 -->
-                              <div class="item">
-                                 <div class="blog-card">
-                                    <div class="media-block">
-                                       <a href="blog-post-1.html">
-                                          <img class="post-image img-responsive" src="images/blog/blog_post_2.jpg" alt="blog-post-2" />
-                                          <div class="mask"></div>
-                                          <div class="post-date">
-                                             <span class="day">3</span><span class="month">Nov</span><!--<span class="year">2016</span>-->
-                                          </div>
-                                       </a>
-                                    </div>
-                                    <div class="post-info">
-                                       <ul class="category">
-                                          <li><a href="#">jQuery</a></li>
-                                       </ul>
-                                       <a href="blog-post-1.html">
-                                          <h4 class="blog-item-title">One Framework, Every Device</h4>
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- End of Blog Post 2 -->
-                              <!-- Blog Post 3 -->
-                              <div class="item">
-                                 <div class="blog-card">
-                                    <div class="media-block">
-                                       <a href="blog-post-1.html">
-                                          <img class="post-image img-responsive" src="images/blog/blog_post_3.jpg" alt="blog-post-3" />
-                                          <div class="mask"></div>
-                                          <div class="post-date">
-                                             <span class="day">12</span><span class="month">Oct</span><!--<span class="year">2016</span>-->
-                                          </div>
-                                       </a>
-                                    </div>
-                                    <div class="post-info">
-                                       <ul class="category">
-                                          <li><a href="#">Sport</a></li>
-                                       </ul>
-                                       <a href="blog-post-1.html">
-                                          <h4 class="blog-item-title">Designed for Everyone, Everywhere</h4>
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- End of Blog Post 3 -->
-                              <!-- Blog Post 4 -->
-                              <div class="item">
-                                 <div class="blog-card">
-                                    <div class="media-block">
-                                       <a href="blog-post-1.html">
-                                          <img class="post-image img-responsive" src="images/blog/blog_post_4.jpg" alt="blog-post-4" />
-                                          <div class="mask"></div>
-                                          <div class="post-date">
-                                             <span class="day">18</span><span class="month">Aug</span><!--<span class="year">2016</span>-->
-                                          </div>
-                                       </a>
-                                    </div>
-                                    <div class="post-info">
-                                       <ul class="category">
-                                          <li><a href="#">CSS</a></li>
-                                       </ul>
-                                       <a href="blog-post-1.html">
-                                          <h4 class="blog-item-title">An Introduction To PostCSS</h4>
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- End of Blog Post 4 -->
-                              <!-- Blog Post 5 -->
-                              <div class="item">
-                                 <div class="blog-card">
-                                    <div class="media-block">
-                                       <a href="blog-post-1.html">
-                                          <img class="post-image img-responsive" src="images/blog/blog_post_5.jpg" alt="blog-post-5" />
-                                          <div class="mask"></div>
-                                          <div class="post-date">
-                                             <span class="day">2</span><span class="month">Jul</span><!--<span class="year">2016</span>-->
-                                          </div>
-                                       </a>
-                                    </div>
-                                    <div class="post-info">
-                                       <ul class="category">
-                                          <li><a href="#">CSS3</a></li>
-                                       </ul>
-                                       <a href="blog-post-1.html">
-                                          <h4 class="blog-item-title">Original and Innovative Web Layouts</h4>
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- End of Blog Post 5 -->
-                              <!-- Blog Post 6 -->
-                              <div class="item">
-                                 <div class="blog-card">
-                                    <div class="media-block">
-                                       <a href="blog-post-1.html">
-                                          <img class="post-image img-responsive" src="images/blog/blog_post_6.jpg" alt="blog-post-6" />
-                                          <div class="mask"></div>
-                                          <div class="post-date">
-                                             <span class="day">8</span><span class="month">May</span><!--<span class="year">2016</span>-->
-                                          </div>
-                                       </a>
-                                    </div>
-                                    <div class="post-info">
-                                       <ul class="category">
-                                          <li><a href="#">HTML5</a></li>
-                                       </ul>
-                                       <a href="blog-post-1.html">
-                                          <h4 class="blog-item-title">Creative and Innovative Navigation Designs</h4>
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- End of Blog Post 6 -->
-                              <!-- Blog Post 7 -->
-                              <div class="item">
-                                 <div class="blog-card">
-                                    <div class="media-block">
-                                       <a href="blog-post-1.html">
-                                          <img class="post-image img-responsive" src="images/blog/blog_post_7.jpg" alt="blog-post-7" />
-                                          <div class="mask"></div>
-                                          <div class="post-date">
-                                             <span class="day">7</span><span class="month">Apr</span><!--<span class="year">2016</span>-->
-                                          </div>
-                                       </a>
-                                    </div>
-                                    <div class="post-info">
-                                       <ul class="category">
-                                          <li><a href="#">Design</a></li>
-                                       </ul>
-                                       <a href="blog-post-1.html">
-                                          <h4 class="blog-item-title">Navigation for Mega-Sites</h4>
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- End of Blog Post 7 -->
-                              <!-- Blog Post 8 -->
-                              <div class="item">
-                                 <div class="blog-card">
-                                    <div class="media-block">
-                                       <a href="blog-post-1.html">
-                                          <img class="post-image img-responsive" src="images/blog/blog_post_8.jpg" alt="blog-post-8" />
-                                          <div class="mask"></div>
-                                          <div class="post-date">
-                                             <span class="day">21</span><span class="month">Mar</span><!--<span class="year">2016</span>-->
-                                          </div>
-                                       </a>
-                                    </div>
-                                    <div class="post-info">
-                                       <ul class="category">
-                                          <li><a href="#">CSS3</a></li>
-                                       </ul>
-                                       <a href="blog-post-1.html">
-                                          <h4 class="blog-item-title">Front-End Challenge Accepted: CSS 3D Cube</h4>
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- End of Blog Post 8 -->
-                           </div>
-                           <!-- Blog Posts Grid -->
-                        </div>
-                     </div>
-                  </section>
-                  <!-- /Blog Subpage -->
-                  <!-- Contact Subpage -->
-                  <section class="pt-page" data-id="contact">
-                     <div class="section-inner custom-page-content">
-                        <div class="page-header color-1">
-                           <h2>Contact</h2>
-                        </div>
-                        <div class="page-content">
-                           <div class="row">
-                              <div class="col-sm-6 col-md-6">
-                                 <div class="block-title">
-                                    <h3>Get in <span>Touch</span></h3>
-                                 </div>
-                                 <div class="contact-info-block">
-                                    <div class="ci-icon">
-                                       <i class="fa fa-map-marker"></i>
-                                    </div>
-                                    <div class="ci-text">
-                                       <h5>Reghin, Romania</h5>
-                                    </div>
-                                 </div>
-                                 <div class="contact-info-block">
-                                    <div class="ci-icon">
-                                       <i class="fa fa-envelope"></i>
-                                    </div>
-                                    <div class="ci-text">
-                                       <h5>valentin.lako@yahoo.com</h5>
-                                    </div>
-                                 </div>
-                                 <div class="contact-info-block">
-                                    <div class="ci-icon">
-                                       <i class="fa fa-phone"></i>
-                                    </div>
-                                    <div class="ci-text">
-                                       <h5>+40 741 185 661</h5>
-                                    </div>
-                                 </div>
-                                 <div class="contact-info-block">
-                                    <div class="ci-icon">
-                                       <i class="fa fa-check"></i>
-                                    </div>
-                                    <div class="ci-text">
-                                       <h5>Freelance Available</h5>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!--         <div class="col-sm-6 col-md-6">
-                                 <div class="block-title">
-                                   <h3>Contact <span>Form</span></h3>
-                                 </div>
-                                 <form id="contact-form" method="post" action="contact_form/contact_form.php">
-                                 
-                                   <div class="messages"></div>
-                                 
-                                   <div class="controls">
-                                     <div class="form-group form-group-with-icon">
-                                       <i class="fa fa-user"></i>
-                                       <label>Full Name</label>
-                                       <input id="form_name" type="text" name="name" class="form-control" placeholder required="required" data-error="Name is required.">
-                                       <div class="form-control-border"></div>
-                                       <div class="help-block with-errors"></div>
-                                     </div>
-                                 
-                                     <div class="form-group form-group-with-icon">
-                                       <i class="fa fa-envelope"></i>
-                                       <label>Email Address</label>
-                                       <input id="form_email" type="email" name="email" class="form-control" placeholder required="required" data-error="Valid email is required.">
-                                       <div class="form-control-border"></div>
-                                       <div class="help-block with-errors"></div>
-                                     </div>
-                                 
-                                     <div class="form-group form-group-with-icon">
-                                       <i class="fa fa-comment"></i>
-                                       <label>Message for Me</label>
-                                       <textarea id="form_message" name="message" class="form-control" placeholder rows="4" required="required" data-error="Please, leave me a message."></textarea>
-                                       <div class="form-control-border"></div>
-                                       <div class="help-block with-errors"></div>
-                                     </div>
-                                 
-                                     <div class="g-recaptcha" data-sitekey="6LelXV8eAAAAAAYRfaJqNGvaGGMtfXmgcri3qBOr"></div>
-                                 
-                                     <input type="submit" class="button btn-send" value="Send message">
-                                   </div>
-                                 </form>
-                                 </div> -->
-                           </div>
-                        </div>
-                     </div>
-                  </section>
-                  <!-- End Contact Subpage -->
-               </div>
-            </div>
-            <!-- /Page changer wrapper -->
-         </div>
-         <!-- /Main Content -->
-      </div>
-      <footer>
-         <div class="copyrights">© 2022 All rights reserved.</div>
-      </footer>
-      <script type="text/javascript" src="js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="js/pages-switcher.js"></script>
-      <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-      <script type="text/javascript" src="js/validator.js"></script>
-      <script type="text/javascript" src="js/jquery.shuffle.min.js"></script>
-      <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-      <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-      <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-      <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-      <script type="text/javascript" src="js/jquery.googlemap.js"></script>
-      <script type="text/javascript" src="js/main.js"></script>
-   </body>
+<html lang="en">
+	<head>
+		<title>Home - Valentin Lako - Senior Shopify Developer</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Experience the perfect blend of creativity and technical expertise with my Shopify development services. From custom theme development to store optimization and migration, I bring your unique business vision to life. Over 6 years of experience and 100+ satisfied clients. Let's build your online store together.">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<!-- Google Analytics -->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-71DSXJ1TD3"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-71DSXJ1TD3');
+		</script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="assets/vendor/normalize/normalize.min.css">
+		<link rel="stylesheet" href="assets/vendor/fontawesome/css/fontawesome-all.min.css">
+		<link rel="stylesheet" href="assets/vendor/swiper/css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="assets/vendor/lightgallery/css/lightgallery.min.css">
+		<link rel="stylesheet" href="assets/css/helper.css">
+		<link rel="stylesheet" href="assets/css/theme.css">
+	</head>
+	<body id="body" class="tt-transition tt-boxed tt-smooth-scroll tt-magic-cursor">
+		<main id="body-inner">
+			<div id="page-transition">
+				<div class="ptr-overlay"></div>
+				<div class="ptr-preloader">
+					<div class="ptr-prel-content">
+					</div>
+				</div>
+			</div>
+			<div id="magic-cursor">
+				<div id="ball"></div>
+			</div>
+			<div id="scroll-container">
+				<header id="tt-header" class="tt-header-fixed">
+					<div class="tt-header-inner">
+						<div class="tt-header-col">
+							<div class="tt-logo"> 
+								<a href="index.html">
+								</a>
+							</div>
+						</div>
+						<div class="tt-header-col">
+							<div id="tt-ol-menu-toggle-btn-wrap">
+								<div class="tt-ol-menu-toggle-btn-text-wrap hide-cursor">
+									<div class="tt-ol-menu-toggle-btn-text">
+										<span class="text-menu" data-hover="Open">Menu</span>
+										<span class="text-close">Close</span>
+									</div>
+								</div>
+								<div class="tt-ol-menu-toggle-btn-holder">
+									<a href="#" class="tt-ol-menu-toggle-btn magnetic-item"><span></span></a>
+								</div>
+							</div>
+							<nav class="tt-overlay-menu tt-ol-menu-count">
+								<div class="tt-ol-menu-ghost">Explore</div>
+								<div class="tt-ol-menu-holder">
+									<div class="tt-ol-menu-inner tt-wrap">
+										<div class="tt-ol-menu-content">
+											<ul class="tt-ol-menu-list">
+												<li class="active"><a href="/">Home</a></li>
+												<li class="tt-ol-submenu-wrap">
+													<div class="tt-ol-submenu-trigger">
+														<a href="portfolio.html">Portfolio</a>
+														<div class="tt-ol-submenu-caret-wrap">
+															<div class="tt-ol-submenu-caret magnetic-item"></div>
+														</div>
+													</div>
+												</li>
+												<li class="tt-ol-submenu-wrap">
+													<div class="tt-ol-submenu-trigger">
+														<a href="about.html">About</a>
+														<div class="tt-ol-submenu-caret-wrap">
+															<div class="tt-ol-submenu-caret magnetic-item"></div>
+														</div>
+													</div>
+												</li>
+												<li class="tt-ol-submenu-wrap">
+													<div class="tt-ol-submenu-trigger">
+														<a href="blog.html">Blog</a>
+														<div class="tt-ol-submenu-caret-wrap">
+															<div class="tt-ol-submenu-caret magnetic-item"></div>
+														</div>
+													</div>
+												</li>
+												<li class="tt-ol-submenu-wrap">
+													<div class="tt-ol-submenu-trigger">
+														<a href="contact.html">Contact</a>
+														<div class="tt-ol-submenu-caret-wrap">
+															<div class="tt-ol-submenu-caret magnetic-item"></div>
+														</div>
+													</div>
+												</li>
+											</ul>
+											<ul class="tt-ol-menu-social">
+												<li><h6 class="tt-ol-menu-social-heading">Social Links:</h6></li>
+												<li><a href="https://www.instagram.com/val.shopifydev/" target="_blank" rel="noopener">Instagram</a></li>
+												<li><a href="https://www.linkedin.com/in/valentin-lako-54631813a/" target="_blank" rel="noopener">LinkedIn</a></li>
+												<li><a href="https://www.upwork.com/freelancers/~01520e351ff0df767b" target="_blank" rel="noopener">UpWork</a></li>
+												<li><a href="https://github.com/valentinlako" target="_blank" rel="noopener">GitHub</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</nav> 
+						</div>
+					</div>
+				</header>
+				<div id="content-wrap">
+					<div id="page-header" class="ph-full ph-cap-lg ph-ghost-scroll ph-image-cropped ph-content-parallax">
+						<div class="page-header-inner tt-wrap">
+							<!-- <div class="ph-image">
+								<div class="ph-image-inner">
+									<img src="assets/img/page-header/ph-1.jpg" alt="Image">
+								</div>
+							</div> -->
+							<div class="ph-caption">
+								<h1 class="ph-caption-title">
+									<div class="ph-appear">Valentin Lako,<br> design <span class="hide-from-sm">→</span> <em class="text-stroke-light">focused</em><br> Shopify Developer</div>
+								</h1>
+								<div class="ph-caption-title-ghost">
+									<div class="ph-appear">Shopify</div>
+								</div>
+							</div>
+						</div>
+						<div class="tt-scroll-down">
+							<a href="#page-content" class="tt-sd-inner ph-appear" data-offset="0">
+								<div class="tt-sd-arrow">
+									<div class="tt-sd-arrow-inner"></div>
+								</div>
+								<div class="tt-sd-text">Scroll</div>
+							</a>
+						</div>
+					</div>
+					<div id="page-content">
+						<div class="tt-section">
+							<div class="tt-section-inner">
+								<div id="portfolio-grid" class="pgi-hover">
+									<div class="tt-grid ttgr-layout-creative-2 ttgr-gap-4">
+										<div class="tt-grid-items-wrap isotope-items-wrap hp-projects">
+											<div class="tt-grid-item isotope-item people">
+												<div class="ttgr-item-inner">
+													<div class="portfolio-grid-item">
+														<a href="portfolio.html" class="pgi-image-wrap" data-cursor="See All<br>Works">
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/portfolio/ondr.png" alt="image">
+																	</figure>
+																</div>
+															</div>
+														</a>
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<h2 class="pgi-title">
+																	<a href="portfolio.html">ONDRwear</a>
+																</h2>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">Leak Proof Underwear For Incontinence</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="tt-grid-item isotope-item people">
+												<div class="ttgr-item-inner">
+													<div class="portfolio-grid-item">
+														<a href="portfolio.html" class="pgi-image-wrap" data-cursor="See All<br>Works">
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/portfolio/azuluna.png" alt="image">
+																	</figure>
+																</div>
+															</div>
+														</a>
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<h2 class="pgi-title">
+																	<a href="portfolio.html">Azuluna Foods</a>
+																</h2>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">Premium Pasture-Raised Meals Delivery</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="tt-grid-item isotope-item people">
+												<div class="ttgr-item-inner">
+													<div class="portfolio-grid-item">
+														<a href="portfolio.html" class="pgi-image-wrap" data-cursor="See All<br>Works">
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/portfolio/birdbean.png" alt="image">
+																	</figure>
+																</div>
+															</div>
+														</a>
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<h2 class="pgi-title">
+																	<a href="portfolio.html">Bird&Bean and Stitch+Sparrow</a>
+																</h2>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">Kids Clothing & Adult Apparel</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="tt-grid-item isotope-item people">
+												<div class="ttgr-item-inner">
+													<div class="portfolio-grid-item">
+														<a href="portfolio.html" class="pgi-image-wrap" data-cursor="See All<br>Works">
+															<div class="pgi-image-holder">
+																<div class="pgi-image-inner anim-zoomin">
+																	<figure class="pgi-image ttgr-height">
+																		<img src="assets/img/portfolio/kimerleecuryl.png" alt="image">
+																	</figure>
+																</div>
+															</div>
+														</a>
+														<div class="pgi-caption">
+															<div class="pgi-caption-inner">
+																<h2 class="pgi-title">
+																	<a href="portfolio.html">Kimerlee Curyl</a>
+																</h2>
+																<div class="pgi-categories-wrap">
+																	<div class="pgi-category">Wild Horse Fine Art</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="text-center anim-fadeinup">
+									<a href="portfolio.html" class="tt-scrolling-btn all-works-btn" data-cursor="All<br>Works">
+										<div class="scr-btn-inner ph-appear">
+											<div class="scr-btn-icon"><i class="fas fa-arrow-right"></i></div>
+											<div class="scr-btn-spinner">
+												<svg viewBox="0 0 500 500">
+													<defs>
+														<path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle"></path>
+													</defs>
+													<text dy="30" class="scr-btn-text">
+														<textPath xlink:href="#textcircle">See All Works - See All Works -</textPath>
+													</text>
+												</svg>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="tt-section padding-top-xlg-100 padding-bottom-xlg-150">
+							<div class="tt-section-inner tt-wrap max-width-1700">
+								<div class="tt-row margin-left-lg-3-p margin-right-lg-3-p">
+									<div class="tt-col-xl-4">
+										<div class="tt-heading tt-heading-xlg anim-fadeinup">
+											<h3 class="tt-heading-subtitle">My Services As A...</h3>
+											<h2 class="tt-heading-title">Shopify Expert</h2>
+										</div>
+										<div class="max-width-600 margin-bottom-60 anim-fadeinup">
+											<h5>When passion, expertise, and attention to detail are combined, the result is a beautiful and successful online store.</h5>
+										</div>
+									</div>
+									<div class="tt-col-xl-1">
+									</div>
+									<div class="tt-col-xl-7">
+										<div class="tt-accordion tt-ac-borders">
+											<div class="tt-accordion-item anim-fadeinup">
+												<div class="tt-accordion-heading">
+													<div class="tt-ac-head cursor-alter">
+														<h3 class="tt-ac-head-title">Theme Development</h3>
+													</div>
+
+													<div class="tt-accordion-caret-wrap">
+														<div class="tt-accordion-caret-inner magnetic-item">
+															<div class="tt-accordion-caret"></div>
+														</div>
+													</div>
+												</div>
+												<div class="tt-accordion-content max-width-800">
+													<p>Specialized in custom Shopify theme development, whether working with established stores to redesign their entire store without any design limitations, or building unique storefront functionality tailored to the client's specific needs. My expertise in coding and understanding of the Shopify platform allows me to bring any vision to life, delivering a polished and fully-functional online store, translating unique business requirements into custom solutions on Shopify.</p>
+												</div>
+											</div>
+											<div class="tt-accordion-item anim-fadeinup">
+												<div class="tt-accordion-heading">
+													<div class="tt-ac-head cursor-alter">
+														<h3 class="tt-ac-head-title">Store Optimization</h3>
+													</div>
+													<div class="tt-accordion-caret-wrap">
+														<div class="tt-accordion-caret-inner magnetic-item">
+															<div class="tt-accordion-caret"></div>
+														</div>
+													</div>
+												</div>
+												<div class="tt-accordion-content max-width-800">
+													<p>Strong experience in optimizing Shopify stores for performance, technical SEO, and conversion rate optimization to increase sales and improve the customer experience. Implementing performance optimization techniques, utilizing tools such as Google Analytics and Hotjar to identify areas for improvement and track the success of optimization efforts, testing and optimizing elements such as website layout, product pages, and checkout flows to increase conversions and improve the user experience including A/B testing with Google Optimize. Collaborating with clients to understand their business goals and implementing strategies to achieve them.</p>
+												</div>
+											</div>
+											<div class="tt-accordion-item anim-fadeinup">
+												<div class="tt-accordion-heading">
+													<div class="tt-ac-head cursor-alter">
+														<h3 class="tt-ac-head-title">Migration Services</h3>
+													</div>
+													<div class="tt-accordion-caret-wrap">
+														<div class="tt-accordion-caret-inner magnetic-item">
+															<div class="tt-accordion-caret"></div>
+														</div>
+													</div>
+												</div>
+												<div class="tt-accordion-content max-width-800">
+													<p>Helping businesses migrate from their existing e-commerce platforms to Shopify, ensuring a seamless transition and preserving important data.</p>
+												</div>
+											</div>
+											<div class="tt-accordion-item anim-fadeinup">
+												<div class="tt-accordion-heading">
+													<div class="tt-ac-head cursor-alter">
+														<h3 class="tt-ac-head-title">Consultation, Training and Support</h3>
+													</div>
+													<div class="tt-accordion-caret-wrap">
+														<div class="tt-accordion-caret-inner magnetic-item">
+															<div class="tt-accordion-caret"></div>
+														</div>
+													</div>
+												</div>
+												<div class="tt-accordion-content max-width-800">
+													<p>Comprehensive training and support to ensure that store owners have the knowledge and tools necessary to effectively manage their online store. From basic navigation and management to advanced customization and optimization, I provide personalized, step-by-step guidance to empower store owners to take control of their online presence. As a merchant, the true beauty of entrepreneurship lies in the ability to bring your vision to life, to turn your passion into a thriving business. The technicalities of running that business should not be a burden, but rather a means to an end. By focusing on the bigger picture, on the passion and drive that led you to start your business in the first place, you can leave the technicalities to experts like Shopify Developers, and truly soar as an entrepreneur. The key to success is to stay true to your vision and let the support team worry about the technical side of things.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tt-section padding-top-xlg-120 padding-bottom-xlg-120 bg-white-accent-3">
+								<div class="tt-scrolling-text" data-scroll-speed="10">
+									<div class="tt-scrolling-text-inner" data-text="Trusted by over 100 clients →">
+										Trusted by over 100 clients →
+									</div>
+								</div>
+								<div class="tt-scrolling-text scr-text-stroke scr-text-reverse" data-scroll-speed="10">
+									<div class="tt-scrolling-text-inner" data-text="More than 6 years of experience →">
+										More than 6 years of experience →
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tt-section padding-top-xlg-150 padding-bottom-xlg-150 bg-white-accent-3">
+							<div class="tt-section-inner tt-wrap max-width-1600">
+								<div class="tt-heading tt-heading-xlg margin-bottom-7-p anim-fadeinup max-width-1250 margin-auto">
+									<h2 class="tt-heading-title">From the Blog</h2>
+									<a href="blog.html" class="tt-btn tt-btn-link">
+										<div data-hover="Browse All">Browse All</div>
+										<span class="tt-btn-icon"><i class="fas fa-arrow-right"></i></span>
+									</a>
+								</div>
+								<div class="tt-blog-carousel anim-fadeinup" data-speed="800" data-simulate-touch="true" data-pagination-type="bullets">
+									<div class="swiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<div class="tt-blog-carousel-item">
+													<div class="tt-bci-info">
+														<h2 class="tt-bci-title"><a href="/blog/collaborating-with-developers.html">Collaborating with Developers: How Shopify Designers Can Boost their Business</a></h2>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="tt-blog-carousel-item">
+													<div class="tt-bci-info">
+														<h2 class="tt-bci-title">5 Tips for Collaborating with a Shopify Developer on a Custom Theme (COMING SOON)</h2>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="tt-blog-carousel-item">
+													<div class="tt-bci-info">
+														<h2 class="tt-bci-title">Shopify Development for Designers: Understanding the Basics (COMING SOON)</h2>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="tt-blog-carousel-item">
+													<div class="tt-bci-info">
+														<h2 class="tt-bci-title">The Importance of a Custom Shopify Theme for Building Brand Loyalty (COMING SOON)</h2>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="tt-blog-carousel-item">
+													<div class="tt-bci-info">
+														<h2 class="tt-bci-title">Building a Shopify Store That Reflects Your Brand's Identity: A Developer's Perspective (COMING SOON)</h2>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tt-blc-nav-prev">
+										<div class="tt-blc-nav-arrow magnetic-item"><i class="tt-arrow-left"></i></div>
+									</div>
+									<div class="tt-blc-nav-next">
+										<div class="tt-blc-nav-arrow magnetic-item"><i class="tt-arrow-right"></i></div>
+									</div>
+									<div class="tt-blc-pagination hide-cursor"></div>
+								</div>
+							</div> <!-- /.tt-section-inner -->
+						</div>
+						<div class="tt-section padding-top-xlg-150">
+							<div class="tt-section-inner tt-wrap max-width-700">
+								<div class="tt-heading tt-heading-xxlg margin-bottom-8-p anim-fadeinup">
+									<h3 class="tt-heading-subtitle">Get in Touch</h3>
+									<h2 class="tt-heading-title">Let's Work<br> Together!</h2>
+								</div>
+								<form id="tt-contact-form" class="tt-form-filled anim-fadeinup">
+									<input type="hidden" name="project_name" value="valentinlako.com">
+									<input type="hidden" name="admin_email" value="valentin.lako@yahoo.com">
+									<input type="hidden" name="form_subject" value="Message from valentinlako.com">
+									<div class="tt-row">
+										<div class="tt-col-md-6">
+											<div class="tt-form-group">
+												<label>Your Name <span class="required">*</span></label>
+												<input class="tt-form-control" type="text" name="Name" placeholder="" required>
+											</div>
+										</div> <!-- /.tt-col -->
+										<div class="tt-col-md-6">
+											<div class="tt-form-group">
+												<label>Email address <span class="required">*</span></label>
+												<input class="tt-form-control" type="email" name="Email" placeholder="" required>
+											</div>
+										</div> <!-- /.tt-col -->
+									</div> <!-- /.tt-row -->
+									<div class="tt-form-group">
+										<label>Subject <span class="required">*</span></label>
+										<input class="tt-form-control" type="text" name="Subject" placeholder="" required>
+									</div>
+									<div class="tt-form-group">
+										<label>Your Message <span class="required">*</span></label>
+										<textarea class="tt-form-control" rows="5" name="Message" placeholder="" required></textarea>
+									</div>
+									<small class="tt-form-text"><em>Fields marked with an asterisk (*) are required!</em></small>
+									<button type="submit" class="tt-btn tt-btn-primary margin-top-30">
+										<div data-hover="Send Message">Send Message</div>
+										<span class="tt-btn-icon"><i class="fas fa-paper-plane"></i></span>
+									</button>
+								</form>
+							</div> <!-- /.tt-section-inner -->
+						</div>
+					</div>
+					<footer id="tt-footer">
+						<div class="tt-footer-inner">
+							<div class="footer-col tt-align-center-left">
+								<div class="footer-col-inner">
+									<a href="#" class="tt-btn tt-btn-link scroll-to-top">
+										<span class="tt-btn-icon"><i class="fas fa-arrow-up"></i></span>
+										<div data-hover="Back to Top">Back to Top</div>
+									</a>
+								</div>
+							</div>
+							<div class="footer-col tt-align-center-right">
+								<div class="footer-col-inner">
+									<div class="footer-social">
+										<div class="footer-social-text"><span>Follow</span><i class="fas fa-share-alt"></i></div>
+										<div class="social-buttons">
+											<ul>
+												<li><a href="https://www.instagram.com/val.shopifydev/" class="magnetic-item" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+												<li><a href="https://www.linkedin.com/in/valentin-lako-54631813a/" class="magnetic-item" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a></li>
+												<li><a href="https://www.upwork.com/freelancers/~01520e351ff0df767b" class="magnetic-item" target="_blank" rel="noopener"><iconify-icon icon="simple-icons:upwork"></iconify-icon></a></li>
+												<li><a href="https://github.com/valentinlako" class="magnetic-item" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</main>
+		<script src="assets/vendor/jquery/jquery.min.js"></script>
+		<script src="assets/vendor/gsap/gsap.min.js"></script>
+		<script src="assets/vendor/gsap/ScrollToPlugin.min.js"></script>
+		<script src="assets/vendor/gsap/ScrollTrigger.min.js"></script>
+		<script src="assets/vendor/smooth-scrollbar.js"></script>
+		<script src="assets/vendor/swiper/js/swiper-bundle.min.js"></script>
+		<script src="assets/vendor/isotope/imagesloaded.pkgd.min.js"></script>
+		<script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
+		<script src="assets/vendor/isotope/packery-mode.pkgd.min.js"></script>
+		<script src="assets/vendor/lightgallery/js/lightgallery-all.min.js"></script>
+		<script src="assets/vendor/jquery.mousewheel.min.js"></script>
+		<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+		<script src="assets/js/theme.js"></script>
+	</body>
 </html>
